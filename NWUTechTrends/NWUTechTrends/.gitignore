@@ -1,0 +1,11 @@
+﻿# Visual Studio
+.vs/
+.vscode/
+*.csproj.user
+*.suo
+*.user
+*.userosscache
+*.suo
+*.cache
+*.pdb
+*.log
