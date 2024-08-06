@@ -28,6 +28,10 @@ public partial class JobTelemetry
     public bool? ExcludeFromTimeSaving { get; set; }
 
     public string? AdditionalInfo { get; set; }
-
-    public DateTime EntryDate { get; set; }
+   
+   public Guid ClientId { get; set; }
+   public DateTime EntryDate { get; set; }
+   public double TimeSaved { get; set; }
+   public decimal CostSaved { get; set; }
+   public Guid ProjectId { get; set; }
 }

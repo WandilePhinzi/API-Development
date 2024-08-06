@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
@@ -9,9 +10,12 @@ using NWUTechTrends.Models;
 
 namespace NWUTechTrends.Controllers
 {
+    [Authorize]
     [Route("api/[controller]")]
     [ApiController]
     public class Clients : ControllerBase
+
+
     {
         private readonly ZaazrNwutechTrendsContext _context;
 
@@ -117,5 +121,39 @@ namespace NWUTechTrends.Controllers
         {
             return _context.Clients.Any(e => e.ClientId == id);
         }
+
+        [HttpGet("GetSavings")]
+        public async Task<ActionResult<ClientSavingsResult>> GetSavings(Guid clientId, DateTime startDate, DateTime endDate)
+        {
+            var telemetryData = await _context.JobTelemetries
+                .Where(t => t.ClientId == clientId && t.EntryDate >= startDate && t.EntryDate <= endDate)
+                .ToListAsync();
+
+            if (!telemetryData.Any())
+            {
+                return NotFound("No telemetry data found for the given client and date range.");
+            }
+
+            var totalHoursSaved = telemetryData.Sum(t => t.TimeSaved);
+            var totalCostReduction = telemetryData.Sum(t => t.CostSaved);
+
+            var result = new ClientSavingsResult
+            {
+                ClientIdentifier = clientId,
+                HoursSaved = totalHoursSaved,
+                CostReduction = totalCostReduction
+            };
+
+            return Ok(result);
+        }
+    }
+
+    public class ClientSavingsResult
+    {
+        public Guid ClientIdentifier { get; set; }
+        public double HoursSaved { get; set; }
+        public decimal CostReduction { get; set; }
     }
 }
+
+

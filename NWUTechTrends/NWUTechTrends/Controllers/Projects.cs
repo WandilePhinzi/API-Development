@@ -103,5 +103,39 @@ namespace NWUTechTrends.Controllers
         {
             return _context.Projects.Any(e => e.ProjectId == id);
         }
+
+        [HttpGet("GetSavings")]
+        public async Task<ActionResult<SavingsResult>> GetSavings(Guid projectId, DateTime startDate, DateTime endDate)
+        {
+            var telemetryData = await _context.JobTelemetries
+                .Where(t => t.ProjectId == projectId && t.EntryDate >= startDate && t.EntryDate <= endDate)
+                .ToListAsync();
+
+            if (!telemetryData.Any())
+            {
+                return NotFound("No telemetry data found for the given project and date range.");
+            }
+
+            var totalSavedTime = telemetryData.Sum(t => t.TimeSaved);
+            var totalSavedCost = telemetryData.Sum(t => t.CostSaved);
+
+            var result = new SavingsResult
+            {
+                ProjectId = projectId,
+                TotalTimeSaved = totalSavedTime,
+                TotalCostSaved = totalSavedCost
+            };
+
+            return Ok(result);
+        }
     }
+
+    public class SavingsResult
+    {
+        public Guid ProjectId { get; set; }
+        public double TotalTimeSaved { get; set; }
+        public decimal TotalCostSaved { get; set; }
+    }
+
 }
+

@@ -12,6 +12,7 @@ public partial class ZaazrNwutechTrendsContext:DbContext
 
     public ZaazrNwutechTrendsContext()
     {
+
     }
 
     public ZaazrNwutechTrendsContext(DbContextOptions<ZaazrNwutechTrendsContext> options)
