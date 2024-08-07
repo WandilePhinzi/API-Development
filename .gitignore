@@ -1,4 +1,5 @@
 # Visual Studio
+appsettings.json
 .vs/
 .vscode/
 *.csproj.user
