@@ -3,72 +3,8 @@
   "WorkspaceRootPath": "C:\\Users\\User\\source\\repos\\project-2-WandilePhinzi1\\NWUTechTrends\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{886ECFB9-244B-4FDF-A276-E6038A2AF065}|NWUTechTrends\\NWUTechTrends.csproj|c:\\users\\user\\source\\repos\\project-2-wandilephinzi1\\nwutechtrends\\nwutechtrends\\.gitignore||{3B902123-F8A7-4915-9F01-361F908088D0}",
-      "RelativeMoniker": "D:0:0:{886ECFB9-244B-4FDF-A276-E6038A2AF065}|NWUTechTrends\\NWUTechTrends.csproj|solutionrelative:nwutechtrends\\.gitignore||{3B902123-F8A7-4915-9F01-361F908088D0}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{886ECFB9-244B-4FDF-A276-E6038A2AF065}|NWUTechTrends\\NWUTechTrends.csproj|c:\\users\\user\\source\\repos\\project-2-wandilephinzi1\\nwutechtrends\\nwutechtrends\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
-      "RelativeMoniker": "D:0:0:{886ECFB9-244B-4FDF-A276-E6038A2AF065}|NWUTechTrends\\NWUTechTrends.csproj|solutionrelative:nwutechtrends\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{886ECFB9-244B-4FDF-A276-E6038A2AF065}|NWUTechTrends\\NWUTechTrends.csproj|c:\\users\\user\\source\\repos\\project-2-wandilephinzi1\\nwutechtrends\\nwutechtrends\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{886ECFB9-244B-4FDF-A276-E6038A2AF065}|NWUTechTrends\\NWUTechTrends.csproj|solutionrelative:nwutechtrends\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{886ECFB9-244B-4FDF-A276-E6038A2AF065}|NWUTechTrends\\NWUTechTrends.csproj|c:\\users\\user\\source\\repos\\project-2-wandilephinzi1\\nwutechtrends\\nwutechtrends\\authentication\\response.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{886ECFB9-244B-4FDF-A276-E6038A2AF065}|NWUTechTrends\\NWUTechTrends.csproj|solutionrelative:nwutechtrends\\authentication\\response.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{886ECFB9-244B-4FDF-A276-E6038A2AF065}|NWUTechTrends\\NWUTechTrends.csproj|c:\\users\\user\\source\\repos\\project-2-wandilephinzi1\\nwutechtrends\\nwutechtrends\\authentication\\userroles.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{886ECFB9-244B-4FDF-A276-E6038A2AF065}|NWUTechTrends\\NWUTechTrends.csproj|solutionrelative:nwutechtrends\\authentication\\userroles.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{886ECFB9-244B-4FDF-A276-E6038A2AF065}|NWUTechTrends\\NWUTechTrends.csproj|c:\\users\\user\\source\\repos\\project-2-wandilephinzi1\\nwutechtrends\\nwutechtrends\\authentication\\registermodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{886ECFB9-244B-4FDF-A276-E6038A2AF065}|NWUTechTrends\\NWUTechTrends.csproj|solutionrelative:nwutechtrends\\authentication\\registermodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{886ECFB9-244B-4FDF-A276-E6038A2AF065}|NWUTechTrends\\NWUTechTrends.csproj|c:\\users\\user\\source\\repos\\project-2-wandilephinzi1\\nwutechtrends\\nwutechtrends\\authentication\\applicationuser.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{886ECFB9-244B-4FDF-A276-E6038A2AF065}|NWUTechTrends\\NWUTechTrends.csproj|solutionrelative:nwutechtrends\\authentication\\applicationuser.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{886ECFB9-244B-4FDF-A276-E6038A2AF065}|NWUTechTrends\\NWUTechTrends.csproj|c:\\users\\user\\source\\repos\\project-2-wandilephinzi1\\nwutechtrends\\nwutechtrends\\authentication\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{886ECFB9-244B-4FDF-A276-E6038A2AF065}|NWUTechTrends\\NWUTechTrends.csproj|solutionrelative:nwutechtrends\\authentication\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{886ECFB9-244B-4FDF-A276-E6038A2AF065}|NWUTechTrends\\NWUTechTrends.csproj|c:\\users\\user\\source\\repos\\project-2-wandilephinzi1\\nwutechtrends\\nwutechtrends\\models\\jobtelemetry.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{886ECFB9-244B-4FDF-A276-E6038A2AF065}|NWUTechTrends\\NWUTechTrends.csproj|solutionrelative:nwutechtrends\\models\\jobtelemetry.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{886ECFB9-244B-4FDF-A276-E6038A2AF065}|NWUTechTrends\\NWUTechTrends.csproj|c:\\users\\user\\source\\repos\\project-2-wandilephinzi1\\nwutechtrends\\nwutechtrends\\models\\client.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{886ECFB9-244B-4FDF-A276-E6038A2AF065}|NWUTechTrends\\NWUTechTrends.csproj|solutionrelative:nwutechtrends\\models\\client.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{886ECFB9-244B-4FDF-A276-E6038A2AF065}|NWUTechTrends\\NWUTechTrends.csproj|c:\\users\\user\\source\\repos\\project-2-wandilephinzi1\\nwutechtrends\\nwutechtrends\\startup.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{886ECFB9-244B-4FDF-A276-E6038A2AF065}|NWUTechTrends\\NWUTechTrends.csproj|solutionrelative:nwutechtrends\\startup.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{886ECFB9-244B-4FDF-A276-E6038A2AF065}|NWUTechTrends\\NWUTechTrends.csproj|c:\\users\\user\\source\\repos\\project-2-wandilephinzi1\\nwutechtrends\\nwutechtrends\\controllers\\projects.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{886ECFB9-244B-4FDF-A276-E6038A2AF065}|NWUTechTrends\\NWUTechTrends.csproj|solutionrelative:nwutechtrends\\controllers\\projects.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{886ECFB9-244B-4FDF-A276-E6038A2AF065}|NWUTechTrends\\NWUTechTrends.csproj|c:\\users\\user\\source\\repos\\project-2-wandilephinzi1\\nwutechtrends\\nwutechtrends\\controllers\\jobtelemetries.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{886ECFB9-244B-4FDF-A276-E6038A2AF065}|NWUTechTrends\\NWUTechTrends.csproj|solutionrelative:nwutechtrends\\controllers\\jobtelemetries.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{886ECFB9-244B-4FDF-A276-E6038A2AF065}|NWUTechTrends\\NWUTechTrends.csproj|c:\\users\\user\\source\\repos\\project-2-wandilephinzi1\\nwutechtrends\\nwutechtrends\\controllers\\authenticatecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{886ECFB9-244B-4FDF-A276-E6038A2AF065}|NWUTechTrends\\NWUTechTrends.csproj|solutionrelative:nwutechtrends\\controllers\\authenticatecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{886ECFB9-244B-4FDF-A276-E6038A2AF065}|NWUTechTrends\\NWUTechTrends.csproj|c:\\users\\user\\source\\repos\\project-2-wandilephinzi1\\nwutechtrends\\nwutechtrends\\controllers\\clients.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{886ECFB9-244B-4FDF-A276-E6038A2AF065}|NWUTechTrends\\NWUTechTrends.csproj|solutionrelative:nwutechtrends\\controllers\\clients.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{886ECFB9-244B-4FDF-A276-E6038A2AF065}|NWUTechTrends\\NWUTechTrends.csproj|c:\\users\\user\\source\\repos\\project-2-wandilephinzi1\\nwutechtrends\\nwutechtrends\\models\\zaazrnwutechtrendscontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{886ECFB9-244B-4FDF-A276-E6038A2AF065}|NWUTechTrends\\NWUTechTrends.csproj|solutionrelative:nwutechtrends\\models\\zaazrnwutechtrendscontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{886ECFB9-244B-4FDF-A276-E6038A2AF065}|NWUTechTrends\\NWUTechTrends.csproj|c:\\users\\user\\source\\repos\\project-2-wandilephinzi1\\nwutechtrends\\nwutechtrends\\controllers\\processes.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{886ECFB9-244B-4FDF-A276-E6038A2AF065}|NWUTechTrends\\NWUTechTrends.csproj|solutionrelative:nwutechtrends\\controllers\\processes.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -78,21 +14,8 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 4,
+          "SelectedChildIndex": 2,
           "Children": [
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\User\\source\\repos\\project-2-WandilePhinzi1\\NWUTechTrends\\NWUTechTrends\\Program.cs",
-              "RelativeDocumentMoniker": "NWUTechTrends\\Program.cs",
-              "ToolTip": "C:\\Users\\User\\source\\repos\\project-2-WandilePhinzi1\\NWUTechTrends\\NWUTechTrends\\Program.cs",
-              "RelativeToolTip": "NWUTechTrends\\Program.cs",
-              "ViewState": "AQIAAAcAAAAAAAAAAAAawBoAAABcAQAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-06T18:11:33.478Z",
-              "IsPinned": true
-            },
             {
               "$type": "Bookmark",
               "Name": "ST:128:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
@@ -103,197 +26,16 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "appsettings.json",
-              "DocumentMoniker": "C:\\Users\\User\\source\\repos\\project-2-WandilePhinzi1\\NWUTechTrends\\NWUTechTrends\\appsettings.json",
-              "RelativeDocumentMoniker": "NWUTechTrends\\appsettings.json",
-              "ToolTip": "C:\\Users\\User\\source\\repos\\project-2-WandilePhinzi1\\NWUTechTrends\\NWUTechTrends\\appsettings.json",
-              "RelativeToolTip": "NWUTechTrends\\appsettings.json",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABQAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2024-08-08T19:15:59.018Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
               "DocumentIndex": 0,
-              "Title": ".gitignore",
-              "DocumentMoniker": "C:\\Users\\User\\source\\repos\\project-2-WandilePhinzi1\\NWUTechTrends\\NWUTechTrends\\.gitignore",
-              "RelativeDocumentMoniker": "NWUTechTrends\\.gitignore",
-              "ToolTip": "C:\\Users\\User\\source\\repos\\project-2-WandilePhinzi1\\NWUTechTrends\\NWUTechTrends\\.gitignore",
-              "RelativeToolTip": "NWUTechTrends\\.gitignore",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA0AAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
-              "WhenOpened": "2024-08-08T18:22:54.512Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "Response.cs",
-              "DocumentMoniker": "C:\\Users\\User\\source\\repos\\project-2-WandilePhinzi1\\NWUTechTrends\\NWUTechTrends\\Authentication\\Response.cs",
-              "RelativeDocumentMoniker": "NWUTechTrends\\Authentication\\Response.cs",
-              "ToolTip": "C:\\Users\\User\\source\\repos\\project-2-WandilePhinzi1\\NWUTechTrends\\NWUTechTrends\\Authentication\\Response.cs",
-              "RelativeToolTip": "NWUTechTrends\\Authentication\\Response.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-07T14:05:25.79Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "UserRoles.cs",
-              "DocumentMoniker": "C:\\Users\\User\\source\\repos\\project-2-WandilePhinzi1\\NWUTechTrends\\NWUTechTrends\\Authentication\\UserRoles.cs",
-              "RelativeDocumentMoniker": "NWUTechTrends\\Authentication\\UserRoles.cs",
-              "ToolTip": "C:\\Users\\User\\source\\repos\\project-2-WandilePhinzi1\\NWUTechTrends\\NWUTechTrends\\Authentication\\UserRoles.cs",
-              "RelativeToolTip": "NWUTechTrends\\Authentication\\UserRoles.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-07T14:05:29.58Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "RegisterModel.cs",
-              "DocumentMoniker": "C:\\Users\\User\\source\\repos\\project-2-WandilePhinzi1\\NWUTechTrends\\NWUTechTrends\\Authentication\\RegisterModel.cs",
-              "RelativeDocumentMoniker": "NWUTechTrends\\Authentication\\RegisterModel.cs",
-              "ToolTip": "C:\\Users\\User\\source\\repos\\project-2-WandilePhinzi1\\NWUTechTrends\\NWUTechTrends\\Authentication\\RegisterModel.cs",
-              "RelativeToolTip": "NWUTechTrends\\Authentication\\RegisterModel.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAAAqAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-07T14:05:20.095Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "ApplicationUser.cs",
-              "DocumentMoniker": "C:\\Users\\User\\source\\repos\\project-2-WandilePhinzi1\\NWUTechTrends\\NWUTechTrends\\Authentication\\ApplicationUser.cs",
-              "RelativeDocumentMoniker": "NWUTechTrends\\Authentication\\ApplicationUser.cs",
-              "ToolTip": "C:\\Users\\User\\source\\repos\\project-2-WandilePhinzi1\\NWUTechTrends\\NWUTechTrends\\Authentication\\ApplicationUser.cs",
-              "RelativeToolTip": "NWUTechTrends\\Authentication\\ApplicationUser.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-07T14:05:07.817Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "ApplicationDbContext.cs",
-              "DocumentMoniker": "C:\\Users\\User\\source\\repos\\project-2-WandilePhinzi1\\NWUTechTrends\\NWUTechTrends\\Authentication\\ApplicationDbContext.cs",
-              "RelativeDocumentMoniker": "NWUTechTrends\\Authentication\\ApplicationDbContext.cs",
-              "ToolTip": "C:\\Users\\User\\source\\repos\\project-2-WandilePhinzi1\\NWUTechTrends\\NWUTechTrends\\Authentication\\ApplicationDbContext.cs",
-              "RelativeToolTip": "NWUTechTrends\\Authentication\\ApplicationDbContext.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-07T14:05:06.695Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "JobTelemetry.cs",
-              "DocumentMoniker": "C:\\Users\\User\\source\\repos\\project-2-WandilePhinzi1\\NWUTechTrends\\NWUTechTrends\\Models\\JobTelemetry.cs",
-              "RelativeDocumentMoniker": "NWUTechTrends\\Models\\JobTelemetry.cs",
-              "ToolTip": "C:\\Users\\User\\source\\repos\\project-2-WandilePhinzi1\\NWUTechTrends\\NWUTechTrends\\Models\\JobTelemetry.cs",
-              "RelativeToolTip": "NWUTechTrends\\Models\\JobTelemetry.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAB0AAAAjAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-07T14:04:13.022Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 9,
-              "Title": "Client.cs",
-              "DocumentMoniker": "C:\\Users\\User\\source\\repos\\project-2-WandilePhinzi1\\NWUTechTrends\\NWUTechTrends\\Models\\Client.cs",
-              "RelativeDocumentMoniker": "NWUTechTrends\\Models\\Client.cs",
-              "ToolTip": "C:\\Users\\User\\source\\repos\\project-2-WandilePhinzi1\\NWUTechTrends\\NWUTechTrends\\Models\\Client.cs",
-              "RelativeToolTip": "NWUTechTrends\\Models\\Client.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-07T14:04:11.774Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 10,
               "Title": "Startup.cs",
               "DocumentMoniker": "C:\\Users\\User\\source\\repos\\project-2-WandilePhinzi1\\NWUTechTrends\\NWUTechTrends\\Startup.cs",
               "RelativeDocumentMoniker": "NWUTechTrends\\Startup.cs",
               "ToolTip": "C:\\Users\\User\\source\\repos\\project-2-WandilePhinzi1\\NWUTechTrends\\NWUTechTrends\\Startup.cs",
               "RelativeToolTip": "NWUTechTrends\\Startup.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABYAAABIAAAA",
+              "ViewState": "AQIAAAYAAAAAAAAAAAAAAA0AAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-07T12:25:14.806Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 11,
-              "Title": "Projects.cs",
-              "DocumentMoniker": "C:\\Users\\User\\source\\repos\\project-2-WandilePhinzi1\\NWUTechTrends\\NWUTechTrends\\Controllers\\Projects.cs",
-              "RelativeDocumentMoniker": "NWUTechTrends\\Controllers\\Projects.cs",
-              "ToolTip": "C:\\Users\\User\\source\\repos\\project-2-WandilePhinzi1\\NWUTechTrends\\NWUTechTrends\\Controllers\\Projects.cs",
-              "RelativeToolTip": "NWUTechTrends\\Controllers\\Projects.cs",
-              "ViewState": "AQIAAF0AAAAAAAAAAAAmwA4AAAAFAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-07T12:07:34.761Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 12,
-              "Title": "JobTelemetries.cs",
-              "DocumentMoniker": "C:\\Users\\User\\source\\repos\\project-2-WandilePhinzi1\\NWUTechTrends\\NWUTechTrends\\Controllers\\JobTelemetries.cs",
-              "RelativeDocumentMoniker": "NWUTechTrends\\Controllers\\JobTelemetries.cs",
-              "ToolTip": "C:\\Users\\User\\source\\repos\\project-2-WandilePhinzi1\\NWUTechTrends\\NWUTechTrends\\Controllers\\JobTelemetries.cs",
-              "RelativeToolTip": "NWUTechTrends\\Controllers\\JobTelemetries.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA8AAAATAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-07T10:16:27.535Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 14,
-              "Title": "Clients.cs",
-              "DocumentMoniker": "C:\\Users\\User\\source\\repos\\project-2-WandilePhinzi1\\NWUTechTrends\\NWUTechTrends\\Controllers\\Clients.cs",
-              "RelativeDocumentMoniker": "NWUTechTrends\\Controllers\\Clients.cs",
-              "ToolTip": "C:\\Users\\User\\source\\repos\\project-2-WandilePhinzi1\\NWUTechTrends\\NWUTechTrends\\Controllers\\Clients.cs",
-              "RelativeToolTip": "NWUTechTrends\\Controllers\\Clients.cs",
-              "ViewState": "AQIAAGoAAAAAAAAAAAAcwDkAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-07T10:17:00.686Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 13,
-              "Title": "AuthenticateController.cs",
-              "DocumentMoniker": "C:\\Users\\User\\source\\repos\\project-2-WandilePhinzi1\\NWUTechTrends\\NWUTechTrends\\Controllers\\AuthenticateController.cs",
-              "RelativeDocumentMoniker": "NWUTechTrends\\Controllers\\AuthenticateController.cs",
-              "ToolTip": "C:\\Users\\User\\source\\repos\\project-2-WandilePhinzi1\\NWUTechTrends\\NWUTechTrends\\Controllers\\AuthenticateController.cs",
-              "RelativeToolTip": "NWUTechTrends\\Controllers\\AuthenticateController.cs",
-              "ViewState": "AQIAACYAAAAAAAAAAAAUwEEAAAAiAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-07T11:16:02.676Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 15,
-              "Title": "ZaazrNwutechTrendsContext.cs",
-              "DocumentMoniker": "C:\\Users\\User\\source\\repos\\project-2-WandilePhinzi1\\NWUTechTrends\\NWUTechTrends\\Models\\ZaazrNwutechTrendsContext.cs",
-              "RelativeDocumentMoniker": "NWUTechTrends\\Models\\ZaazrNwutechTrendsContext.cs",
-              "ToolTip": "C:\\Users\\User\\source\\repos\\project-2-WandilePhinzi1\\NWUTechTrends\\NWUTechTrends\\Models\\ZaazrNwutechTrendsContext.cs",
-              "RelativeToolTip": "NWUTechTrends\\Models\\ZaazrNwutechTrendsContext.cs",
-              "ViewState": "AQIAAHQAAAAAAAAAAAAAwAcAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-07T11:57:27.109Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 16,
-              "Title": "Processes.cs",
-              "DocumentMoniker": "C:\\Users\\User\\source\\repos\\project-2-WandilePhinzi1\\NWUTechTrends\\NWUTechTrends\\Controllers\\Processes.cs",
-              "RelativeDocumentMoniker": "NWUTechTrends\\Controllers\\Processes.cs",
-              "ToolTip": "C:\\Users\\User\\source\\repos\\project-2-WandilePhinzi1\\NWUTechTrends\\NWUTechTrends\\Controllers\\Processes.cs",
-              "RelativeToolTip": "NWUTechTrends\\Controllers\\Processes.cs",
-              "ViewState": "AQIAABsAAAAAAAAAAAAowC0AAAASAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-07T12:07:25.744Z"
+              "WhenOpened": "2024-08-07T12:25:14.806Z",
+              "EditorCaption": ""
             }
           ]
         }
