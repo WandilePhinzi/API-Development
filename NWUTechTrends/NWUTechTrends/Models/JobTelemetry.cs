@@ -29,9 +29,13 @@ public partial class JobTelemetry
 
     public string? AdditionalInfo { get; set; }
    
-   public Guid ClientId { get; set; }
-   public DateTime EntryDate { get; set; }
-   public double TimeSaved { get; set; }
-   public decimal CostSaved { get; set; }
-   public Guid ProjectId { get; set; }
+    public Guid ClientId { get; set; }
+
+    public DateTime EntryDate { get; set; }
+
+    public double TimeSaved { get; set; }
+
+    public decimal CostSaved { get; set; }
+
+    public Guid ProjectId { get; set; }
 }

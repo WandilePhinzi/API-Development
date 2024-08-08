@@ -10,7 +10,8 @@ using NWUTechTrends.Models;
 
 namespace NWUTechTrends.Controllers
 {
-    [Authorize]
+    //[AllowAnonymous]
+    //[Authorize]
     [Route("api/[controller]")]
     [ApiController]
     public class Clients : ControllerBase
@@ -47,7 +48,7 @@ namespace NWUTechTrends.Controllers
 
         // PUT: api/Clients/5
         // To protect from overposting attacks, see https://go.microsoft.com/fwlink/?linkid=2123754
-        [HttpPut("{id}")]
+        [HttpPatch("{id}")]
         public async Task<IActionResult> PutClient(Guid id, Client client)
         {
             if (id != client.ClientId)

@@ -16,6 +16,7 @@ using Swashbuckle.AspNetCore.Swagger;
 using Swashbuckle.AspNetCore.SwaggerGen;
 using Swashbuckle.AspNetCore.SwaggerUI;
 using System.Linq;
+using NWUTechTrends.Models;
 
 var builder = WebApplication.CreateBuilder(args);
 
@@ -24,6 +25,7 @@ var builder = WebApplication.CreateBuilder(args);
 builder.Services.AddControllers();
 
 builder.Services.AddDbContext<ApplicationDbContext>(options => options.UseSqlServer("Server=tcp:zaazr41580117sql.database.windows.net,1433;Initial Catalog=zaazrNWUTechTrends;Persist Security Info=False;User ID=cmpg_sa@zaazr41580117sql;Password=Phinzi@3;MultipleActiveResultSets=False;Encrypt=True;TrustServerCertificate=true;Connection Timeout=30;"));
+builder.Services.AddDbContext<ZaazrNwutechTrendsContext>(options => options.UseSqlServer("Server=tcp:zaazr41580117sql.database.windows.net,1433;Initial Catalog=zaazrNWUTechTrends;Persist Security Info=False;User ID=cmpg_sa@zaazr41580117sql;Password=Phinzi@3;MultipleActiveResultSets=False;Encrypt=True;TrustServerCertificate=true;Connection Timeout=30;"));
 
 // For Identity  
 builder.Services.AddIdentity<ApplicationUser, IdentityRole>()
@@ -66,7 +68,7 @@ builder.Services.AddEndpointsApiExplorer();
 //builder.Services.AddSwaggerGen();
 builder.Services.AddSwaggerGen(c =>
 {
-    c.SwaggerDoc("v1", new OpenApiInfo { Title = "NWUTechTrendsAPI", Version = "v1" });
+    c.SwaggerDoc("v1", new OpenApiInfo { Title = "NWUTechTrends API", Version = "v1" });
 
     // Define the Bearer token security scheme
     var securityScheme = new OpenApiSecurityScheme
@@ -102,11 +104,21 @@ builder.Services.AddSwaggerGen(c =>
 
 var app = builder.Build();
 
-// Configure the HTTP request pipeline.
 if (app.Environment.IsDevelopment())
 {
     app.UseSwagger();
     app.UseSwaggerUI();
+}
+else
+{
+    // Configure the HTTP request pipeline.
+    app.UseSwagger();
+    app.UseSwaggerUI(c =>
+    {
+        c.SwaggerEndpoint("/swagger/v1/swagger.json", "NWUTechTrends V1");
+        c.RoutePrefix = string.Empty; 
+    });
+
 }
 
 app.UseHttpsRedirection();
