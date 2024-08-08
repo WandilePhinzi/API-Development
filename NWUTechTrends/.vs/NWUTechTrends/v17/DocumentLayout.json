@@ -3,8 +3,12 @@
   "WorkspaceRootPath": "C:\\Users\\User\\source\\repos\\project-2-WandilePhinzi1\\NWUTechTrends\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{886ECFB9-244B-4FDF-A276-E6038A2AF065}|NWUTechTrends\\NWUTechTrends.csproj|c:\\users\\user\\source\\repos\\project-2-wandilephinzi1\\nwutechtrends\\nwutechtrends\\nwutechtrends.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
-      "RelativeMoniker": "D:0:0:{886ECFB9-244B-4FDF-A276-E6038A2AF065}|NWUTechTrends\\NWUTechTrends.csproj|solutionrelative:nwutechtrends\\nwutechtrends.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+      "AbsoluteMoniker": "D:0:0:{886ECFB9-244B-4FDF-A276-E6038A2AF065}|NWUTechTrends\\NWUTechTrends.csproj|c:\\users\\user\\source\\repos\\project-2-wandilephinzi1\\nwutechtrends\\nwutechtrends\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{886ECFB9-244B-4FDF-A276-E6038A2AF065}|NWUTechTrends\\NWUTechTrends.csproj|solutionrelative:nwutechtrends\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{886ECFB9-244B-4FDF-A276-E6038A2AF065}|NWUTechTrends\\NWUTechTrends.csproj|c:\\users\\user\\source\\repos\\project-2-wandilephinzi1\\nwutechtrends\\nwutechtrends\\.gitignore||{3B902123-F8A7-4915-9F01-361F908088D0}",
+      "RelativeMoniker": "D:0:0:{886ECFB9-244B-4FDF-A276-E6038A2AF065}|NWUTechTrends\\NWUTechTrends.csproj|solutionrelative:nwutechtrends\\.gitignore||{3B902123-F8A7-4915-9F01-361F908088D0}"
     }
   ],
   "DocumentGroupContainers": [
@@ -27,15 +31,27 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "NWUTechTrends.csproj",
-              "DocumentMoniker": "C:\\Users\\User\\Source\\Repos\\project-2-WandilePhinzi1\\NWUTechTrends\\NWUTechTrends\\NWUTechTrends.csproj",
-              "RelativeDocumentMoniker": "NWUTechTrends\\NWUTechTrends.csproj",
-              "ToolTip": "C:\\Users\\User\\Source\\Repos\\project-2-WandilePhinzi1\\NWUTechTrends\\NWUTechTrends\\NWUTechTrends.csproj",
-              "RelativeToolTip": "NWUTechTrends\\NWUTechTrends.csproj",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABcAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
-              "WhenOpened": "2024-08-08T20:49:05.475Z",
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Users\\User\\source\\repos\\project-2-WandilePhinzi1\\NWUTechTrends\\NWUTechTrends\\appsettings.json",
+              "RelativeDocumentMoniker": "NWUTechTrends\\appsettings.json",
+              "ToolTip": "C:\\Users\\User\\source\\repos\\project-2-WandilePhinzi1\\NWUTechTrends\\NWUTechTrends\\appsettings.json",
+              "RelativeToolTip": "NWUTechTrends\\appsettings.json",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABQAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2024-08-08T21:25:24.607Z",
               "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": ".gitignore",
+              "DocumentMoniker": "C:\\Users\\User\\source\\repos\\project-2-WandilePhinzi1\\NWUTechTrends\\NWUTechTrends\\.gitignore",
+              "RelativeDocumentMoniker": "NWUTechTrends\\.gitignore",
+              "ToolTip": "C:\\Users\\User\\source\\repos\\project-2-WandilePhinzi1\\NWUTechTrends\\NWUTechTrends\\.gitignore",
+              "RelativeToolTip": "NWUTechTrends\\.gitignore",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
+              "WhenOpened": "2024-08-08T21:25:18.405Z"
             },
             {
               "$type": "Bookmark",
