@@ -30,7 +30,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 7,
+          "SelectedChildIndex": 8,
           "Children": [
             {
               "$type": "Document",
@@ -46,13 +46,29 @@
               "IsPinned": true
             },
             {
+              "$type": "Bookmark",
+              "Name": "ST:128:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:129:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:128:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
+            },
+            {
               "$type": "Document",
               "DocumentIndex": 1,
               "Title": "Process.cs",
               "DocumentMoniker": "C:\\Users\\User\\source\\repos\\project-2-WandilePhinzi1\\project-2-WandilePhinzi\\NWUTechTrends\\NWUTechTrends\\Models\\Process.cs",
               "RelativeDocumentMoniker": "NWUTechTrends\\Models\\Process.cs",
-              "ToolTip": "C:\\Users\\User\\source\\repos\\project-2-WandilePhinzi1\\project-2-WandilePhinzi\\NWUTechTrends\\NWUTechTrends\\Models\\Process.cs*",
-              "RelativeToolTip": "NWUTechTrends\\Models\\Process.cs*",
+              "ToolTip": "C:\\Users\\User\\source\\repos\\project-2-WandilePhinzi1\\project-2-WandilePhinzi\\NWUTechTrends\\NWUTechTrends\\Models\\Process.cs",
+              "RelativeToolTip": "NWUTechTrends\\Models\\Process.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAABoAAAAnAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-08-09T11:55:05.315Z",
@@ -85,26 +101,14 @@
               "EditorCaption": ""
             },
             {
-              "$type": "Bookmark",
-              "Name": "ST:128:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
-            },
-            {
-              "$type": "Bookmark",
-              "Name": "ST:129:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
-            },
-            {
-              "$type": "Bookmark",
-              "Name": "ST:128:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
-            },
-            {
               "$type": "Document",
               "DocumentIndex": 0,
               "Title": "JobTelemetries.cs",
               "DocumentMoniker": "C:\\Users\\User\\source\\repos\\project-2-WandilePhinzi1\\project-2-WandilePhinzi\\NWUTechTrends\\NWUTechTrends\\Controllers\\JobTelemetries.cs",
               "RelativeDocumentMoniker": "NWUTechTrends\\Controllers\\JobTelemetries.cs",
-              "ToolTip": "C:\\Users\\User\\source\\repos\\project-2-WandilePhinzi1\\project-2-WandilePhinzi\\NWUTechTrends\\NWUTechTrends\\Controllers\\JobTelemetries.cs*",
-              "RelativeToolTip": "NWUTechTrends\\Controllers\\JobTelemetries.cs*",
-              "ViewState": "AQIAAH4AAAAAAAAAAAAowKsAAAAAAAAA",
+              "ToolTip": "C:\\Users\\User\\source\\repos\\project-2-WandilePhinzi1\\project-2-WandilePhinzi\\NWUTechTrends\\NWUTechTrends\\Controllers\\JobTelemetries.cs",
+              "RelativeToolTip": "NWUTechTrends\\Controllers\\JobTelemetries.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA8AAAATAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-08-09T09:34:12.922Z",
               "EditorCaption": ""
