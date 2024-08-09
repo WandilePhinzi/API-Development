@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\User\\source\\repos\\project-2-WandilePhinzi1\\NWUTechTrends\\NWUTechTrends\\NWUTechTrends.csproj": {}
+    "C:\\Users\\User\\source\\repos\\project-2-WandilePhinzi1\\project-2-WandilePhinzi\\NWUTechTrends\\NWUTechTrends\\NWUTechTrends.csproj": {}
   },
   "projects": {
-    "C:\\Users\\User\\source\\repos\\project-2-WandilePhinzi1\\NWUTechTrends\\NWUTechTrends\\NWUTechTrends.csproj": {
+    "C:\\Users\\User\\source\\repos\\project-2-WandilePhinzi1\\project-2-WandilePhinzi\\NWUTechTrends\\NWUTechTrends\\NWUTechTrends.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\User\\source\\repos\\project-2-WandilePhinzi1\\NWUTechTrends\\NWUTechTrends\\NWUTechTrends.csproj",
+        "projectUniqueName": "C:\\Users\\User\\source\\repos\\project-2-WandilePhinzi1\\project-2-WandilePhinzi\\NWUTechTrends\\NWUTechTrends\\NWUTechTrends.csproj",
         "projectName": "NWUTechTrends",
-        "projectPath": "C:\\Users\\User\\source\\repos\\project-2-WandilePhinzi1\\NWUTechTrends\\NWUTechTrends\\NWUTechTrends.csproj",
+        "projectPath": "C:\\Users\\User\\source\\repos\\project-2-WandilePhinzi1\\project-2-WandilePhinzi\\NWUTechTrends\\NWUTechTrends\\NWUTechTrends.csproj",
         "packagesPath": "C:\\Users\\User\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\User\\Source\\Repos\\project-2-WandilePhinzi1\\NWUTechTrends\\NWUTechTrends\\obj\\",
+        "outputPath": "C:\\Users\\User\\source\\repos\\project-2-WandilePhinzi1\\project-2-WandilePhinzi\\NWUTechTrends\\NWUTechTrends\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\User\\AppData\\Roaming\\NuGet\\NuGet.Config",

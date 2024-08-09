@@ -1,13 +1,17 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\User\\source\\repos\\project-2-WandilePhinzi1\\NWUTechTrends\\",
+  "WorkspaceRootPath": "C:\\Users\\User\\source\\repos\\project-2-WandilePhinzi1\\project-2-WandilePhinzi\\NWUTechTrends\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{886ECFB9-244B-4FDF-A276-E6038A2AF065}|NWUTechTrends\\NWUTechTrends.csproj|c:\\users\\user\\source\\repos\\project-2-wandilephinzi1\\nwutechtrends\\nwutechtrends\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "AbsoluteMoniker": "D:0:0:{886ECFB9-244B-4FDF-A276-E6038A2AF065}|NWUTechTrends\\NWUTechTrends.csproj|c:\\users\\user\\source\\repos\\project-2-wandilephinzi1\\project-2-wandilephinzi\\nwutechtrends\\nwutechtrends\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
       "RelativeMoniker": "D:0:0:{886ECFB9-244B-4FDF-A276-E6038A2AF065}|NWUTechTrends\\NWUTechTrends.csproj|solutionrelative:nwutechtrends\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{886ECFB9-244B-4FDF-A276-E6038A2AF065}|NWUTechTrends\\NWUTechTrends.csproj|c:\\users\\user\\source\\repos\\project-2-wandilephinzi1\\nwutechtrends\\nwutechtrends\\.gitignore||{3B902123-F8A7-4915-9F01-361F908088D0}",
+      "AbsoluteMoniker": "D:0:0:{886ECFB9-244B-4FDF-A276-E6038A2AF065}|NWUTechTrends\\NWUTechTrends.csproj|c:\\users\\user\\source\\repos\\project-2-wandilephinzi1\\project-2-wandilephinzi\\nwutechtrends\\nwutechtrends\\models\\zaazrnwutechtrendscontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{886ECFB9-244B-4FDF-A276-E6038A2AF065}|NWUTechTrends\\NWUTechTrends.csproj|solutionrelative:nwutechtrends\\models\\zaazrnwutechtrendscontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{886ECFB9-244B-4FDF-A276-E6038A2AF065}|NWUTechTrends\\NWUTechTrends.csproj|c:\\users\\user\\source\\repos\\project-2-wandilephinzi1\\project-2-wandilephinzi\\nwutechtrends\\nwutechtrends\\.gitignore||{3B902123-F8A7-4915-9F01-361F908088D0}",
       "RelativeMoniker": "D:0:0:{886ECFB9-244B-4FDF-A276-E6038A2AF065}|NWUTechTrends\\NWUTechTrends.csproj|solutionrelative:nwutechtrends\\.gitignore||{3B902123-F8A7-4915-9F01-361F908088D0}"
     }
   ],
@@ -18,7 +22,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 2,
+          "SelectedChildIndex": 4,
           "Children": [
             {
               "$type": "Bookmark",
@@ -29,33 +33,47 @@
               "Name": "ST:129:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
             },
             {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "appsettings.json",
-              "DocumentMoniker": "C:\\Users\\User\\source\\repos\\project-2-WandilePhinzi1\\NWUTechTrends\\NWUTechTrends\\appsettings.json",
-              "RelativeDocumentMoniker": "NWUTechTrends\\appsettings.json",
-              "ToolTip": "C:\\Users\\User\\source\\repos\\project-2-WandilePhinzi1\\NWUTechTrends\\NWUTechTrends\\appsettings.json",
-              "RelativeToolTip": "NWUTechTrends\\appsettings.json",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABQAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2024-08-08T21:25:24.607Z",
-              "EditorCaption": ""
+              "$type": "Bookmark",
+              "Name": "ST:128:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
             },
             {
               "$type": "Document",
               "DocumentIndex": 1,
-              "Title": ".gitignore",
-              "DocumentMoniker": "C:\\Users\\User\\source\\repos\\project-2-WandilePhinzi1\\NWUTechTrends\\NWUTechTrends\\.gitignore",
-              "RelativeDocumentMoniker": "NWUTechTrends\\.gitignore",
-              "ToolTip": "C:\\Users\\User\\source\\repos\\project-2-WandilePhinzi1\\NWUTechTrends\\NWUTechTrends\\.gitignore",
-              "RelativeToolTip": "NWUTechTrends\\.gitignore",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
-              "WhenOpened": "2024-08-08T21:25:18.405Z"
+              "Title": "ZaazrNwutechTrendsContext.cs",
+              "DocumentMoniker": "C:\\Users\\User\\source\\repos\\project-2-WandilePhinzi1\\project-2-WandilePhinzi\\NWUTechTrends\\NWUTechTrends\\Models\\ZaazrNwutechTrendsContext.cs",
+              "RelativeDocumentMoniker": "NWUTechTrends\\Models\\ZaazrNwutechTrendsContext.cs",
+              "ToolTip": "C:\\Users\\User\\source\\repos\\project-2-WandilePhinzi1\\project-2-WandilePhinzi\\NWUTechTrends\\NWUTechTrends\\Models\\ZaazrNwutechTrendsContext.cs",
+              "RelativeToolTip": "NWUTechTrends\\Models\\ZaazrNwutechTrendsContext.cs",
+              "ViewState": "AQIAAAsAAAAAAAAAAAAQwCEAAAAfAQAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-09T09:02:05.863Z",
+              "EditorCaption": ""
             },
             {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Users\\User\\source\\repos\\project-2-WandilePhinzi1\\project-2-WandilePhinzi\\NWUTechTrends\\NWUTechTrends\\appsettings.json",
+              "RelativeDocumentMoniker": "NWUTechTrends\\appsettings.json",
+              "ToolTip": "C:\\Users\\User\\source\\repos\\project-2-WandilePhinzi1\\project-2-WandilePhinzi\\NWUTechTrends\\NWUTechTrends\\appsettings.json*",
+              "RelativeToolTip": "NWUTechTrends\\appsettings.json*",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAARAQAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2024-08-09T08:59:40.678Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": ".gitignore",
+              "DocumentMoniker": "C:\\Users\\User\\source\\repos\\project-2-WandilePhinzi1\\project-2-WandilePhinzi\\NWUTechTrends\\NWUTechTrends\\.gitignore",
+              "RelativeDocumentMoniker": "NWUTechTrends\\.gitignore",
+              "ToolTip": "C:\\Users\\User\\source\\repos\\project-2-WandilePhinzi1\\project-2-WandilePhinzi\\NWUTechTrends\\NWUTechTrends\\.gitignore",
+              "RelativeToolTip": "NWUTechTrends\\.gitignore",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAIAAAAEAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
+              "WhenOpened": "2024-08-08T21:25:18.405Z",
+              "EditorCaption": ""
             }
           ]
         }
