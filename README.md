@@ -13,7 +13,7 @@ utilization o the telemetry data for analyzing automation performance
 
 ## How to use the API
 * Authentication: Ensure that you have all the necessary credentials to access the API
-* Base URL :https://nwutechtrends20240807130028.azurewebsites.net
+* Base URL https://nwutechtrends20240807130028.azurewebsites.net
 * Endpoints:
 * Telemetry Management
     - Get/api/jobtelemetry :This retreievs all telemetry entries
