@@ -16,4 +16,6 @@ public partial class Project
     public string? ProjectStatus { get; set; }
 
     public Guid? ClientId { get; set; }
+
+
 }
