@@ -71,6 +71,11 @@ public partial class ZaazrNwutechTrendsContext:DbContext
             entity.Property(e => e.StepDescription).IsUnicode(false);
             entity.Property(e => e.UniqueReference).IsUnicode(false);
             entity.Property(e => e.UniqueReferenceType).IsUnicode(false);
+
+            modelBuilder.Entity<JobTelemetry>()
+                .HasOne(jt => jt.Process)
+                .WithMany() // Or WithOne if appropriate
+                .HasForeignKey(jt => jt.ProcessId);
         });
 
         modelBuilder.Entity<Process>(entity =>

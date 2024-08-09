@@ -24,6 +24,7 @@ public partial class Process
     public string? ReportUrl { get; set; }
 
     public Guid? ProjectId { get; set; }
+    public Guid ?ClientId { get; set; }
 
     public string? DefaultGeography { get; set; }
 

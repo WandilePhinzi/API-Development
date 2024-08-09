@@ -102,6 +102,84 @@ namespace NWUTechTrends.Controllers
             return NoContent();
         }
 
+
+
+        [HttpGet("savings/project/{projectId}")]
+        public IActionResult GetSavingsByProjectId(Guid projectId, DateTime startDate, DateTime endDate)
+        {
+            try
+            {
+                // Perform a join between JobTelemetry and Process tables
+                var telemetries = from jt in _context.JobTelemetries
+                                  where jt.Process.ProjectId == projectId
+                                        && jt.EntryDate >= startDate
+                                        && jt.EntryDate <= endDate
+                                  select jt;
+
+
+                // Check if ExcludeFromTimeSaving is set for any telemetry
+                var filteredTelemetries = telemetries
+                    .Where(t => !t.ExcludeFromTimeSaving.HasValue || !t.ExcludeFromTimeSaving.Value);
+
+                var totalTimeSaved = filteredTelemetries.Sum(t => t.HumanTime ?? 200); // Handle potential null HumanTime
+                var totalCostSaved = filteredTelemetries.Sum(t => t.CostSaved ?? 4000);
+
+                var savings = new
+                {
+                    ProjectId = projectId,
+                    TotalTimeSaved = totalTimeSaved,
+                    TotalCostSaved = totalCostSaved
+                };
+
+                return Ok(savings);
+            }
+
+            catch
+            {
+                return StatusCode(500, "An error occurred while calculating savings.");
+            }
+         }
+
+
+
+
+        [HttpGet("savings/project/{clientsId}")]
+        public IActionResult GetSavingsByClientsId(Guid clientsId, DateTime startDate, DateTime endDate)
+        {
+            try
+            {
+                // Perform a join between JobTelemetry and Process tables
+                var telemetries = from jt in _context.JobTelemetries
+                                  where jt.Process.ClientId == clientsId
+                                        && jt.EntryDate >= startDate
+                                        && jt.EntryDate <= endDate
+                                  select jt;
+
+
+                // Check if ExcludeFromTimeSaving is set for any telemetry
+                var filteredTelemetries = telemetries
+                    .Where(t => !t.ExcludeFromTimeSaving.HasValue || !t.ExcludeFromTimeSaving.Value);
+
+                var totalTimeSaved = filteredTelemetries.Sum(t => t.HumanTime ?? 200); // Handle potential null HumanTime
+                var totalCostSaved = filteredTelemetries.Sum(t => t.CostSaved ?? 4000);
+
+                var savings = new
+                {
+                    ClientId = clientsId,
+                    TotalTimeSaved = totalTimeSaved,
+                    TotalCostSaved = totalCostSaved
+                };
+
+                return Ok(savings);
+            }
+
+            catch
+            {
+                return StatusCode(500, "An error occurred while calculating savings.");
+            }
+        }
+
+
         private bool JobTelemetryExists(int id)
         {
             return _context.JobTelemetries.Any(e => e.Id == id);
