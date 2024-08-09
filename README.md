@@ -28,5 +28,8 @@ utilization o the telemetry data for analyzing automation performance
 ## References
 - ChatGPT, 2024. Available at: <https://chatgpt.com/c/83b16907-5d2d-4ba2-83be-d2816e0cc6f7:Chatgpt> [Accessed 9 August 2024].
 - YouTube, 2024. *10 Aug CMPG 323 weekly virtual class API controllers*. Available at: <https://www.youtube.com/watch?v=tg_0o6U_J-w&t=633s> [Accessed 9 August 2024].
+- Google Gemini, 2024. *Google Gemini App*. Available at: <https://gemini.google.com/app/da30bcb80ce6ec98?hl=en-IN> [Accessed 9 August 2024].
+- YouTube, 2024. *24 August CMPG323 weekly virtual class API Security*. Available at: <https://www.youtube.com/watch?v=tg_0o6U_J-w&t=637s> [Accessed 9 August 2024].
+
 
 
