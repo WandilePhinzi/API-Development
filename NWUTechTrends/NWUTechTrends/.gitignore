@@ -1,6 +1,6 @@
 ﻿# Visual Studio
 appsettings.json
-.vs/
+.vs
 .vscode/
 *.csproj.user
 *.suo
