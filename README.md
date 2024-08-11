@@ -13,7 +13,7 @@ utilization o the telemetry data for analyzing automation performance
 
 ## How to use the API
 * Authentication: Ensure that you have all the necessary credentials to access the API
-* Base URL :https://nwutechtrends20240807130028.azurewebsites.net
+* Base URL https://nwutechtrends20240807130028.azurewebsites.net
 * Endpoints:
 * Telemetry Management
     - Get/api/jobtelemetry :This retreievs all telemetry entries
@@ -23,6 +23,14 @@ utilization o the telemetry data for analyzing automation performance
     - Delete/api/jobtelemetry{id}: Delete a telemetry entry
     - Get/api/jobtelemetry/GetSavings/project: Retrieves cumulative tima and cost savings griuped by project
     - Get/api/jobtelemetry/GetSavings/client :Retreives cumulative time and cost savings grouped by client
+
+- Link to reference document
+- https://nwuac-my.sharepoint.com/:w:/r/personal/41580117_mynwu_ac_za/Documents/References.docx?d=w9362939cef9b4de99d1fe8ea5253d14c&csf=1&web=1&e=tTLheK
+## References
+- ChatGPT, 2024. Available at: <https://chatgpt.com/c/83b16907-5d2d-4ba2-83be-d2816e0cc6f7:Chatgpt> [Accessed 9 August 2024].
+- YouTube, 2024. *10 Aug CMPG 323 weekly virtual class API controllers*. Available at: <https://www.youtube.com/watch?v=tg_0o6U_J-w&t=633s> [Accessed 9 August 2024].
+- Google Gemini, 2024. *Google Gemini App*. Available at: <https://gemini.google.com/app/da30bcb80ce6ec98?hl=en-IN> [Accessed 9 August 2024].
+- YouTube, 2024. *24 August CMPG323 weekly virtual class API Security*. Available at: <https://www.youtube.com/watch?v=tg_0o6U_J-w&t=637s> [Accessed 9 August 2024].
 
 
 
