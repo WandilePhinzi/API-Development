@@ -9,8 +9,8 @@
       "dynamicId": null
     },
     "apis1": {
-      "apiEndpoint": "https://nwutechtrendsapi.azure-api.net/",
-      "resourceId": "/subscriptions/[parameters('subscriptionId')]/resourceGroups/[parameters('resourceGroupName')]/providers/Microsoft.ApiManagement/service/NWUTechTrendsapi/apis/nwutechtrends-api",
+      "apiEndpoint": "https://nwutechtrendsap20240807130028.azure-api.net/",
+      "resourceId": "/subscriptions/[parameters('subscriptionId')]/resourceGroups/[parameters('resourceGroupName')]/providers/Microsoft.ApiManagement/service/NWUTechTrendsap20240807130028/apis/NWUTechTrends20240807130028",
       "type": "apis.azure"
     }
   }

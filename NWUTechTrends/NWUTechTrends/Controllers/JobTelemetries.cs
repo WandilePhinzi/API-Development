@@ -75,7 +75,7 @@ namespace NWUTechTrends.Controllers
             return NoContent();
         }
 
-        // POST: api/JobTelemetries
+        // POST:api/JobTelemetries
         // To protect from overposting attacks, see https://go.microsoft.com/fwlink/?linkid=2123754
         [HttpPost]
         public async Task<ActionResult<JobTelemetry>> PostJobTelemetry(JobTelemetry jobTelemetry)
@@ -86,7 +86,7 @@ namespace NWUTechTrends.Controllers
             return CreatedAtAction("GetJobTelemetry", new { id = jobTelemetry.Id }, jobTelemetry);
         }
 
-        // DELETE: api/JobTelemetries/5
+        // DELETE:api/JobTelemetries/5
         [HttpDelete("{id}")]
         public async Task<IActionResult> DeleteJobTelemetry(int id)
         {

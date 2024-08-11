@@ -36,7 +36,7 @@
     },
     {
       "type": "Microsoft.Resources/deployments",
-      "name": "[concat(parameters('resourceGroupName'), 'Deployment', uniqueString(concat('nwutechtrends-api', subscription().subscriptionId)))]",
+      "name": "[concat(parameters('resourceGroupName'), 'Deployment', uniqueString(concat('NWUTechTrends20240807130028', subscription().subscriptionId)))]",
       "resourceGroup": "[parameters('resourceGroupName')]",
       "apiVersion": "2019-10-01",
       "dependsOn": [
@@ -49,7 +49,7 @@
           "contentVersion": "1.0.0.0",
           "resources": [
             {
-              "name": "NWUTechTrendsapi",
+              "name": "NWUTechTrendsap20240807130028",
               "type": "Microsoft.ApiManagement/service",
               "location": "[parameters('resourceLocation')]",
               "properties": {
@@ -59,7 +59,7 @@
                 "hostnameConfigurations": [
                   {
                     "type": "Proxy",
-                    "hostName": "nwutechtrendsapi.azure-api.net",
+                    "hostName": "nwutechtrendsap20240807130028.azure-api.net",
                     "encodedCertificate": null,
                     "keyVaultId": null,
                     "certificatePassword": null,
@@ -95,16 +95,15 @@
             },
             {
               "type": "Microsoft.ApiManagement/service/apis",
-              "name": "NWUTechTrendsapi/nwutechtrends-api",
+              "name": "NWUTechTrendsap20240807130028/NWUTechTrends20240807130028",
               "properties": {
-                "displayName": "NWUTechTrends API",
+                "displayName": "NWUTechTrends20240807130028",
                 "apiRevision": "1",
                 "description": null,
                 "subscriptionRequired": true,
                 "serviceUrl": null,
                 "path": "",
                 "protocols": [
-                  "http",
                   "https"
                 ],
                 "authenticationSettings": {
@@ -119,7 +118,7 @@
               },
               "apiVersion": "2019-12-01",
               "dependsOn": [
-                "NWUTechTrendsapi"
+                "NWUTechTrendsap20240807130028"
               ]
             }
           ]
