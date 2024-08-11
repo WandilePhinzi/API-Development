@@ -143,7 +143,7 @@ namespace NWUTechTrends.Controllers
 
 
 
-        [HttpGet("savings/project/{clientsId}")]
+        [HttpGet("savings/clients/{clientsId}")]
         public IActionResult GetSavingsByClientsId(Guid clientsId, DateTime startDate, DateTime endDate)
         {
             try
