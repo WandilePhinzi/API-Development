@@ -1,0 +1,17 @@
+{
+  "dependencies": {
+    "mssql1": {
+      "serviceConnectorResourceId": "/subscriptions/[parameters('subscriptionId')]/resourceGroups/[parameters('resourceGroupName')]/providers/Microsoft.Web/sites/NWUTechTrends20240807130028/providers/Microsoft.ServiceLinker/linkers/ConnectionStringszaazr41580117sql.databa_60194B6AC5",
+      "secretStore": "AzureAppSettings",
+      "resourceId": "/subscriptions/[parameters('subscriptionId')]/resourceGroups/[parameters('resourceGroupName')]/providers/Microsoft.Sql/servers/zaazr41580117sql/databases/zaazrNWUTechTrends",
+      "type": "mssql.azure",
+      "connectionId": "ConnectionStrings:zaazr41580117sql.database.windows.net",
+      "dynamicId": null
+    },
+    "apis1": {
+      "apiEndpoint": "https://nwutechtrendsap20240807130028.azure-api.net/",
+      "resourceId": "/subscriptions/[parameters('subscriptionId')]/resourceGroups/[parameters('resourceGroupName')]/providers/Microsoft.ApiManagement/service/NWUTechTrendsap20240807130028/apis/NWUTechTrends20240807130028",
+      "type": "apis.azure"
+    }
+  }
+}
