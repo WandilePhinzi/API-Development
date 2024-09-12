@@ -6,9 +6,11 @@ using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
 using NWUTechTrends.Models;
+using Microsoft.AspNetCore.Authorization;
 
 namespace NWUTechTrends.Controllers
 {
+    [Authorize]
     [Route("api/[controller]")]
     [ApiController]
     public class Processes : ControllerBase
@@ -21,6 +23,7 @@ namespace NWUTechTrends.Controllers
         }
 
         // GET: api/Processes
+        [Authorize]
         [HttpGet]
         public async Task<ActionResult<IEnumerable<Process>>> GetProcesses()
         {
@@ -28,6 +31,7 @@ namespace NWUTechTrends.Controllers
         }
 
         // GET: api/Processes/5
+        [Authorize]
         [HttpGet("{id}")]
         public async Task<ActionResult<Process>> GetProcess(Guid id)
         {
@@ -43,6 +47,7 @@ namespace NWUTechTrends.Controllers
 
         // PUT: api/Processes/5
         // To protect from overposting attacks, see https://go.microsoft.com/fwlink/?linkid=2123754
+        [Authorize]
         [HttpPatch("{id}")]
         public async Task<IActionResult> PutProcess(Guid id, Process process)
         {
@@ -74,6 +79,7 @@ namespace NWUTechTrends.Controllers
 
         // POST: api/Processes
         // To protect from overposting attacks, see https://go.microsoft.com/fwlink/?linkid=2123754
+        [Authorize]
         [HttpPost]
         public async Task<ActionResult<Process>> PostProcess(Process process)
         {
@@ -84,6 +90,7 @@ namespace NWUTechTrends.Controllers
         }
 
         // DELETE: api/Processes/5
+        [Authorize]
         [HttpDelete("{id}")]
         public async Task<IActionResult> DeleteProcess(Guid id)
         {

@@ -23,7 +23,7 @@ var builder = WebApplication.CreateBuilder(args);
 // Add services to the container.
 
 builder.Services.AddControllers();
-
+//Dependency Injection Applied
 builder.Services.AddDbContext<ApplicationDbContext>(options => options.UseSqlServer("Server=tcp:zaazr41580117sql.database.windows.net,1433;Initial Catalog=zaazrNWUTechTrends;Persist Security Info=False;User ID=cmpg_sa@zaazr41580117sql;Password=Phinzi@3;MultipleActiveResultSets=False;Encrypt=True;TrustServerCertificate=true;Connection Timeout=30;"));
 builder.Services.AddDbContext<ZaazrNwutechTrendsContext>(options => options.UseSqlServer("Server=tcp:zaazr41580117sql.database.windows.net,1433;Initial Catalog=zaazrNWUTechTrends;Persist Security Info=False;User ID=cmpg_sa@zaazr41580117sql;Password=Phinzi@3;MultipleActiveResultSets=False;Encrypt=True;TrustServerCertificate=true;Connection Timeout=30;"));
 
@@ -120,6 +120,7 @@ else
     });
 
 }
+
 
 app.UseHttpsRedirection();
 

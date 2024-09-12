@@ -31,7 +31,7 @@ public partial class ZaazrNwutechTrendsContext:DbContext
 
     protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
 #warning To protect potentially sensitive information in your connection string, you should move it out of source code. You can avoid scaffolding the connection string by using the Name= syntax to read it from configuration - see https://go.microsoft.com/fwlink/?linkid=2131148. For more guidance on storing connection strings, see https://go.microsoft.com/fwlink/?LinkId=723263.
-        => optionsBuilder.UseSqlServer("Server=tcp:zaazr41580117sql.database.windows.net,1433;Initial Catalog=zaazrNWUTechTrends;Persist Security Info=False;User ID=cmpg_sa;Password=Phinzi@3;MultipleActiveResultSets=False;Encrypt=True;TrustServerCertificate=False;Connection Timeout=30;");
+        => optionsBuilder.UseSqlServer("Server=tcp:zaazr41580117sql.database.windows.net,1433;Initial Catalog=zaazrNWUTechTrends;Persist Security Info=False;User ID=cmpg_sa;Password=Phinzi@3;MultipleActiveResultSets=False;Encrypt=True;TrustServerCertificate=true;Connection Timeout=30;");
 
     protected override void OnModelCreating(ModelBuilder modelBuilder)
     {
@@ -75,7 +75,7 @@ public partial class ZaazrNwutechTrendsContext:DbContext
             modelBuilder.Entity<JobTelemetry>()
                 .HasOne(jt => jt.Process)
                 .WithMany() // Or WithOne if appropriate
-                .HasForeignKey(jt => jt.ProcessId);
+                .HasForeignKey(jt => jt.ProccesId);
         });
 
         modelBuilder.Entity<Process>(entity =>

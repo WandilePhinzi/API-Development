@@ -7,7 +7,7 @@ public partial class JobTelemetry
 {
     public int Id { get; set; }
 
-    public string? ProccesId { get; set; }
+   public string? ProccesId { get; set; }
 
     public string? JobId { get; set; }
 
@@ -32,6 +32,5 @@ public partial class JobTelemetry
     public DateTime EntryDate { get; set; }
     public Guid ProcessId { get; set; }
     public Process Process { get; set; }
-
     public int? CostSaved {  get; set; }
 }

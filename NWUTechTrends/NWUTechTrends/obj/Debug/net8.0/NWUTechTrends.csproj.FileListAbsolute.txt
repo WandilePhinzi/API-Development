@@ -253,13 +253,9 @@ C:\Users\User\Source\Repos\project-2-WandilePhinzi1\NWUTechTrends\NWUTechTrends\
 C:\Users\User\Source\Repos\project-2-WandilePhinzi1\NWUTechTrends\NWUTechTrends\bin\Debug\net8.0\runtimes\win\lib\net7.0\System.Windows.Extensions.dll
 C:\Users\User\Source\Repos\project-2-WandilePhinzi1\NWUTechTrends\NWUTechTrends\bin\Debug\net8.0\Microsoft.AspNetCore.Authentication.JwtBearer.dll
 C:\Users\User\Source\Repos\project-2-WandilePhinzi1\NWUTechTrends\NWUTechTrends\bin\Debug\net8.0\Microsoft.AspNetCore.Identity.EntityFrameworkCore.dll
+C:\Users\User\source\repos\project-2-WandilePhinzi1\project-2-WandilePhinzi\NWUTechTrends\NWUTechTrends\bin\Debug\net8.0\NWUTechTrends.exe
 C:\Users\User\source\repos\project-2-WandilePhinzi1\project-2-WandilePhinzi\NWUTechTrends\NWUTechTrends\bin\Debug\net8.0\appsettings.Development.json
 C:\Users\User\source\repos\project-2-WandilePhinzi1\project-2-WandilePhinzi\NWUTechTrends\NWUTechTrends\bin\Debug\net8.0\appsettings.json
-C:\Users\User\source\repos\project-2-WandilePhinzi1\project-2-WandilePhinzi\NWUTechTrends\NWUTechTrends\bin\Debug\net8.0\NWUTechTrends.exe
-C:\Users\User\source\repos\project-2-WandilePhinzi1\project-2-WandilePhinzi\NWUTechTrends\NWUTechTrends\bin\Debug\net8.0\NWUTechTrends.deps.json
-C:\Users\User\source\repos\project-2-WandilePhinzi1\project-2-WandilePhinzi\NWUTechTrends\NWUTechTrends\bin\Debug\net8.0\NWUTechTrends.runtimeconfig.json
-C:\Users\User\source\repos\project-2-WandilePhinzi1\project-2-WandilePhinzi\NWUTechTrends\NWUTechTrends\bin\Debug\net8.0\NWUTechTrends.dll
-C:\Users\User\source\repos\project-2-WandilePhinzi1\project-2-WandilePhinzi\NWUTechTrends\NWUTechTrends\bin\Debug\net8.0\NWUTechTrends.pdb
 C:\Users\User\source\repos\project-2-WandilePhinzi1\project-2-WandilePhinzi\NWUTechTrends\NWUTechTrends\bin\Debug\net8.0\Azure.Core.dll
 C:\Users\User\source\repos\project-2-WandilePhinzi1\project-2-WandilePhinzi\NWUTechTrends\NWUTechTrends\bin\Debug\net8.0\Azure.Identity.dll
 C:\Users\User\source\repos\project-2-WandilePhinzi1\project-2-WandilePhinzi\NWUTechTrends\NWUTechTrends\bin\Debug\net8.0\Humanizer.dll
@@ -506,5 +502,9 @@ C:\Users\User\source\repos\project-2-WandilePhinzi1\project-2-WandilePhinzi\NWUT
 C:\Users\User\source\repos\project-2-WandilePhinzi1\project-2-WandilePhinzi\NWUTechTrends\NWUTechTrends\obj\Debug\net8.0\NWUTechTrends.dll
 C:\Users\User\source\repos\project-2-WandilePhinzi1\project-2-WandilePhinzi\NWUTechTrends\NWUTechTrends\obj\Debug\net8.0\refint\NWUTechTrends.dll
 C:\Users\User\source\repos\project-2-WandilePhinzi1\project-2-WandilePhinzi\NWUTechTrends\NWUTechTrends\obj\Debug\net8.0\NWUTechTrends.pdb
+C:\Users\User\source\repos\project-2-WandilePhinzi1\project-2-WandilePhinzi\NWUTechTrends\NWUTechTrends\bin\Debug\net8.0\NWUTechTrends.deps.json
+C:\Users\User\source\repos\project-2-WandilePhinzi1\project-2-WandilePhinzi\NWUTechTrends\NWUTechTrends\bin\Debug\net8.0\NWUTechTrends.runtimeconfig.json
+C:\Users\User\source\repos\project-2-WandilePhinzi1\project-2-WandilePhinzi\NWUTechTrends\NWUTechTrends\bin\Debug\net8.0\NWUTechTrends.dll
+C:\Users\User\source\repos\project-2-WandilePhinzi1\project-2-WandilePhinzi\NWUTechTrends\NWUTechTrends\bin\Debug\net8.0\NWUTechTrends.pdb
 C:\Users\User\source\repos\project-2-WandilePhinzi1\project-2-WandilePhinzi\NWUTechTrends\NWUTechTrends\obj\Debug\net8.0\NWUTechTrends.genruntimeconfig.cache
 C:\Users\User\source\repos\project-2-WandilePhinzi1\project-2-WandilePhinzi\NWUTechTrends\NWUTechTrends\obj\Debug\net8.0\ref\NWUTechTrends.dll

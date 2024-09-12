@@ -11,7 +11,7 @@ using NWUTechTrends.Models;
 namespace NWUTechTrends.Controllers
 {
    // [AllowAnonymous]
-    //[Authorize]
+    [Authorize]//Apply Authentication
     [Route("api/[controller]")]
     [ApiController]
     public class JobTelemetries : ControllerBase
@@ -24,6 +24,7 @@ namespace NWUTechTrends.Controllers
         }
 
         // GET: api/JobTelemetries
+        [Authorize]
         [HttpGet]
         public async Task<ActionResult<IEnumerable<JobTelemetry>>> GetJobTelemetries()
         {
@@ -31,6 +32,7 @@ namespace NWUTechTrends.Controllers
         }
 
         // GET: api/JobTelemetries/5
+        [Authorize]
         [HttpGet("{id}")]
         public async Task<ActionResult<JobTelemetry>> GetJobTelemetry(int id)
         {
@@ -45,7 +47,9 @@ namespace NWUTechTrends.Controllers
         }
 
         // PUT: api/JobTelemetries/5
+
         // To protect from overposting attacks, see https://go.microsoft.com/fwlink/?linkid=2123754
+        [Authorize]
         [HttpPatch("{id}")]
         public async Task<IActionResult> PutJobTelemetry(int id, JobTelemetry jobTelemetry)
         {
@@ -76,7 +80,9 @@ namespace NWUTechTrends.Controllers
         }
 
         // POST:api/JobTelemetries
+
         // To protect from overposting attacks, see https://go.microsoft.com/fwlink/?linkid=2123754
+        [Authorize]
         [HttpPost]
         public async Task<ActionResult<JobTelemetry>> PostJobTelemetry(JobTelemetry jobTelemetry)
         {
@@ -87,6 +93,7 @@ namespace NWUTechTrends.Controllers
         }
 
         // DELETE:api/JobTelemetries/5
+        [Authorize]
         [HttpDelete("{id}")]
         public async Task<IActionResult> DeleteJobTelemetry(int id)
         {
@@ -103,7 +110,7 @@ namespace NWUTechTrends.Controllers
         }
 
 
-
+        [Authorize]
         [HttpGet("savings/project/{projectId}")]
         public IActionResult GetSavingsByProjectId(Guid projectId, DateTime startDate, DateTime endDate)
         {
@@ -142,7 +149,7 @@ namespace NWUTechTrends.Controllers
 
 
 
-
+        [Authorize]
         [HttpGet("savings/clients/{clientsId}")]
         public IActionResult GetSavingsByClientsId(Guid clientsId, DateTime startDate, DateTime endDate)
         {

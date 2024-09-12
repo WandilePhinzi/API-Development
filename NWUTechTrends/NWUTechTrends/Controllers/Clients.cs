@@ -11,7 +11,7 @@ using NWUTechTrends.Models;
 namespace NWUTechTrends.Controllers
 {
     //[AllowAnonymous]
-    //[Authorize]
+    [Authorize]
     [Route("api/[controller]")]
     [ApiController]
     public class Clients : ControllerBase
@@ -26,6 +26,7 @@ namespace NWUTechTrends.Controllers
         }
 
         // GET: api/Clients
+        [Authorize]
         [HttpGet]
         public async Task<ActionResult<IEnumerable<Client>>> GetClients()
         {
@@ -33,6 +34,7 @@ namespace NWUTechTrends.Controllers
         }
 
         // GET: api/Clients/5
+        [Authorize]
         [HttpGet("{id}")]
         public async Task<ActionResult<Client>> GetClient(Guid id)
         {
@@ -48,6 +50,7 @@ namespace NWUTechTrends.Controllers
 
         // PUT: api/Clients/5
         // To protect from overposting attacks, see https://go.microsoft.com/fwlink/?linkid=2123754
+        [Authorize]
         [HttpPatch("{id}")]
         public async Task<IActionResult> PutClient(Guid id, Client client)
         {
@@ -79,6 +82,7 @@ namespace NWUTechTrends.Controllers
 
         // POST: api/Clients
         // To protect from overposting attacks, see https://go.microsoft.com/fwlink/?linkid=2123754
+        [Authorize]
         [HttpPost]
         public async Task<ActionResult<Client>> PostClient(Client client)
         {
@@ -103,6 +107,7 @@ namespace NWUTechTrends.Controllers
         }
 
         // DELETE: api/Clients/5
+        [Authorize]
         [HttpDelete("{id}")]
         public async Task<IActionResult> DeleteClient(Guid id)
         {
