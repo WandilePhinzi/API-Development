@@ -2,5 +2,19 @@
 # This .gitignore file was automatically created by Microsoft(R) Visual Studio.
 ################################################################################
 
+# Visual Studio
+appsettings.json
+.vs/
+.vscode/
+*.csproj.user
+*.suo
+*.user
+*.userosscache
+*.suo
+*.cache
+*.pdb
+*.log
+.vs/
+
 /NWUTechTrends/.vs/NWUTechTrends/FileContentIndex/6dbc6c69-163f-4a72-94d0-e185048e7b94.vsidx
 /NWUTechTrends/.vs/NWUTechTrends/FileContentIndex
