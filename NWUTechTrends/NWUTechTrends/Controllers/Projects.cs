@@ -7,10 +7,11 @@ using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
 using NWUTechTrends.Models;
 using Microsoft.AspNetCore.Authorization;
+using JWTAuthentication.Authentication;
 
 namespace NWUTechTrends.Controllers
 {
-    [Authorize]
+    [Authorize(Roles = UserRoles.Admin)]
     [Route("api/[controller]")]
     [ApiController]
     public class Projects : ControllerBase
@@ -23,7 +24,7 @@ namespace NWUTechTrends.Controllers
         }
 
         // GET: api/Projects
-        [Authorize]
+        [Authorize(Roles = UserRoles.Admin)]
         [HttpGet]
         public async Task<ActionResult<IEnumerable<Project>>> GetProjects()
         {
@@ -31,7 +32,7 @@ namespace NWUTechTrends.Controllers
         }
 
         // GET: api/Projects/5
-        [Authorize]
+        [Authorize(Roles = UserRoles.Admin)]
         [HttpGet("{id}")]
         public async Task<ActionResult<Project>> GetProject(Guid id)
         {
@@ -47,7 +48,7 @@ namespace NWUTechTrends.Controllers
 
         // PUT: api/Projects/5
         // To protect from overposting attacks, see https://go.microsoft.com/fwlink/?linkid=2123754
-        [Authorize]
+        [Authorize(Roles = UserRoles.Admin)]
         [HttpPatch("{id}")]
         public async Task<IActionResult> PutProject(Guid id, Project project)
         {
@@ -80,7 +81,7 @@ namespace NWUTechTrends.Controllers
         // POST: api/Projects
         // To protect from overposting attacks, see https://go.microsoft.com/fwlink/?linkid=2123754
 
-        [Authorize(Roles = "Admin")]
+        [Authorize(Roles = UserRoles.Admin)]
         [HttpPost]
         public async Task<ActionResult<Project>> PostProject(Project project)
         {
@@ -91,7 +92,7 @@ namespace NWUTechTrends.Controllers
         }
 
         // DELETE: api/Projects/5
-        [Authorize]
+        [Authorize(Roles = UserRoles.Admin)]
         [HttpDelete("{id}")]
         public async Task<IActionResult> DeleteProject(Guid id)
         {

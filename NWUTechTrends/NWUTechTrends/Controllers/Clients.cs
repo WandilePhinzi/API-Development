@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
+using JWTAuthentication.Authentication;
 using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
@@ -11,7 +12,7 @@ using NWUTechTrends.Models;
 namespace NWUTechTrends.Controllers
 {
     //[AllowAnonymous]
-    [Authorize]
+    [Authorize(Roles = UserRoles.Admin)]
     [Route("api/[controller]")]
     [ApiController]
     public class Clients : ControllerBase
@@ -26,7 +27,7 @@ namespace NWUTechTrends.Controllers
         }
 
         // GET: api/Clients
-        [Authorize]
+        [Authorize(Roles = UserRoles.Admin)]
         [HttpGet]
         public async Task<ActionResult<IEnumerable<Client>>> GetClients()
         {
@@ -34,7 +35,7 @@ namespace NWUTechTrends.Controllers
         }
 
         // GET: api/Clients/5
-        [Authorize]
+        [Authorize(Roles = UserRoles.Admin)]
         [HttpGet("{id}")]
         public async Task<ActionResult<Client>> GetClient(Guid id)
         {
@@ -50,7 +51,7 @@ namespace NWUTechTrends.Controllers
 
         // PUT: api/Clients/5
         // To protect from overposting attacks, see https://go.microsoft.com/fwlink/?linkid=2123754
-        [Authorize]
+        [Authorize(Roles = UserRoles.Admin)]
         [HttpPatch("{id}")]
         public async Task<IActionResult> PutClient(Guid id, Client client)
         {
@@ -82,7 +83,7 @@ namespace NWUTechTrends.Controllers
 
         // POST: api/Clients
         // To protect from overposting attacks, see https://go.microsoft.com/fwlink/?linkid=2123754
-        [Authorize]
+        [Authorize(Roles = UserRoles.Admin)]
         [HttpPost]
         public async Task<ActionResult<Client>> PostClient(Client client)
         {
@@ -107,7 +108,7 @@ namespace NWUTechTrends.Controllers
         }
 
         // DELETE: api/Clients/5
-        [Authorize]
+        [Authorize(Roles = UserRoles.Admin)]
         [HttpDelete("{id}")]
         public async Task<IActionResult> DeleteClient(Guid id)
         {

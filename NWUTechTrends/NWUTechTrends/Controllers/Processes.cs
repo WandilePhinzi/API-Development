@@ -7,10 +7,12 @@ using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
 using NWUTechTrends.Models;
 using Microsoft.AspNetCore.Authorization;
+using JWTAuthentication.Authentication;
+using System.Data;
 
 namespace NWUTechTrends.Controllers
 {
-    [Authorize]
+    [Authorize(Roles = UserRoles.Admin)]
     [Route("api/[controller]")]
     [ApiController]
     public class Processes : ControllerBase
@@ -23,7 +25,7 @@ namespace NWUTechTrends.Controllers
         }
 
         // GET: api/Processes
-        [Authorize]
+        [Authorize(Roles = UserRoles.Admin)]
         [HttpGet]
         public async Task<ActionResult<IEnumerable<Process>>> GetProcesses()
         {
@@ -31,7 +33,7 @@ namespace NWUTechTrends.Controllers
         }
 
         // GET: api/Processes/5
-        [Authorize]
+        [Authorize(Roles = UserRoles.Admin)]
         [HttpGet("{id}")]
         public async Task<ActionResult<Process>> GetProcess(Guid id)
         {
@@ -47,7 +49,7 @@ namespace NWUTechTrends.Controllers
 
         // PUT: api/Processes/5
         // To protect from overposting attacks, see https://go.microsoft.com/fwlink/?linkid=2123754
-        [Authorize]
+        [Authorize(Roles = UserRoles.Admin)]
         [HttpPatch("{id}")]
         public async Task<IActionResult> PutProcess(Guid id, Process process)
         {
@@ -79,7 +81,7 @@ namespace NWUTechTrends.Controllers
 
         // POST: api/Processes
         // To protect from overposting attacks, see https://go.microsoft.com/fwlink/?linkid=2123754
-        [Authorize]
+        [Authorize(Roles = UserRoles.Admin)]
         [HttpPost]
         public async Task<ActionResult<Process>> PostProcess(Process process)
         {
@@ -90,7 +92,7 @@ namespace NWUTechTrends.Controllers
         }
 
         // DELETE: api/Processes/5
-        [Authorize]
+        [Authorize(Roles = UserRoles.Admin)]
         [HttpDelete("{id}")]
         public async Task<IActionResult> DeleteProcess(Guid id)
         {
