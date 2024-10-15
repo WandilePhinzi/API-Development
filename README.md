@@ -2,7 +2,7 @@
 
 # NWU Tech Trends API
 
-## Project 2 Overview
+## Project Overview
 * This project aims to develop a CRUD( Create ,Read ,Update, Delete) RESTful API so that it can manage telemetry
 data associated with automations created by NWU Tech Trends. The API will connect to the database storing this 
 telemetry information and allow functionalities like retrieving all telemetry entries, retrieving a specific telemetry
